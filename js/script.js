@@ -1,8 +1,8 @@
-// function replaceName(){
-//     let name = prompt("Siapakah nama anda?", "");
-//     document.getElementById("user").innerHTML = name
-// }
-// replaceName();
+function replaceName(){
+    let name = prompt("Siapakah nama anda?", "");
+    document.getElementById("user").innerHTML = name
+}
+replaceName();
 
 
 
