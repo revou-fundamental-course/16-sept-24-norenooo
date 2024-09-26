@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="https://1.bp.blogspot.com/-7CIsWYWpltg/YF9ni6c1GnI/AAAAAAAACLw/yiAclBCWlR0sa2QZJd6hgY5-fIdqwC_-ACNcBGAsYHQ/s2048/Persebaya%2BSurabaya.png" alt="Persebaya%2BSurabaya" width="50px"></div>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section class="hero">
+        <h1>Selamat Datang <span id="user"></span> di Portofolio Saya</h1>
+        <p>Saya adalah seorang fresh graduate yang baru saja menyelesaikan studi saya di informatika di Universitas Wijaya Kusuma Surabaya. Selama masa studi, saya telah mengembangkan keterampilan dalam seperti desain grafis, pengembangan web, analisis data.</p>
+    </section>
+    
+    <div class="image-container">
+        <img class="img-slideshow" src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/142832790/original/c42df64720b0d3daef2e7b070c14071e2eb27b5c/fix-and-develop-any-php-node-js-angular-laravel-wordpress-website.png" alt="Contoh Gambar" width="1366" height="578">
+        <img class="img-slideshow" src="https://wallpapers.com/images/hd/1366x768-helicopters-background-1366-x-768-facl5xbeuc0ne9kt.jpg" alt="Contoh Gambar" width="1366" height="578">
+        <img class="img-slideshow" src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/142832790/original/c42df64720b0d3daef2e7b070c14071e2eb27b5c/fix-and-develop-any-php-node-js-angular-laravel-wordpress-website.png" alt="Contoh Gambar" width="1366" height="578">
+    </div>
+
+    <section id="about" class="about">
+        <h2>Tentang Saya</h2>
+        <p>Selama masa studi, saya terlibat dalam berbagai proyek yang memungkinkan saya untuk menerapkan teori ke praktik. Saya memiliki pengalaman dalam [sebutkan keterampilan atau alat yang Anda kuasai, seperti HTML, CSS, JavaScript, Adobe Photoshop, dll.]. Selain itu, saya juga pernah magang di [nama perusahaan atau lembaga] di mana saya mendapatkan wawasan berharga tentang industri dan meningkatkan keterampilan profesional saya.</p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portofolio</h2>
+        <div class="portfolio-items">
+            <div class="item">
+                <img src="https://th.bing.com/th/id/OIP.cBkjXEoSJNCpmr8QW5BnMAHaD_?w=306&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Proyek 1">
+                <h3>Proyek 1</h3>
+                <p>Deskripsi singkat tentang proyek ini.</p>
+            </div>
+            <div class="item">
+                <img src="https://th.bing.com/th/id/OIP.m0s2io11J82PR7miqan92wHaDt?w=315&h=174&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Proyek 2">
+                <h3>Proyek 2</h3>
+                <p>Deskripsi singkat tentang proyek ini.</p>
+            </div>
+            <div class="item">
+                <img src="https://th.bing.com/th/id/OIP.c4RBIyTHaeRH08T4bp_waAHaGO?w=183&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Proyek 3">
+                <h3>Proyek 3</h3>
+                <p>Deskripsi singkat tentang proyek ini.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- <div class="divider"></div> -->
+
+    <section id="contact" class="contact">
+        <h2>Kontak</h2>
+    <div class="container-contact">
+        <form name="message-form" onsubmit="return validateForm()">
+            <input type="text" placeholder="Nama" name="full-name" required>
+            <input type="email" placeholder="Email" name="email" required>
+            <textarea placeholder="Pesan" name="messages" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+        <div class="output-form">
+            <p>Nama: <span id="sender-full-name"></span></p>
+            <p>Email: <span id="sender-email"></span></p>
+            <p>Pesan: <span id="sender-messages"></span></p>
+        </div>
+    </div>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2024 Nama Anda. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
